@@ -1,0 +1,54 @@
+header {
+    background-color: red;
+    height: 75px;
+    width: 100%;
+}
+
+.logo {
+    background-color: pink;
+    height: 75px;
+    width: 10%;
+}
+
+.freem {
+    text-align: center;
+    padding: 10px; 
+}
+
+.maincont {
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+
+main {
+    background-color: yellow;
+    height: 900px;
+    width: 85%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    background-color: green;
+    height: 900px;
+    width: 15%;
+}
+
+.game {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin: 30px;
+    
+}
+
+footer {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
+
