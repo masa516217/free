@@ -10,15 +10,17 @@
             <div class=logo>
                 <h2 class="freem">logo</h2>
             </div>
-        　　<div class="headerparent">
+            <div class="headerparent">
         　　<p class="headerelement">ゲーム検索</p> 
             <form>
                 <input class="headerelement">
             </form>
-            <a class="headerelement" href="/main/register">ID登録</a>
-            <a class="headerelement" href="/main/login">ログイン</a>
+            <a href="/main" class="headeranother">ホームに戻る</a>
         　　</div>
         </header>
+            <br>
+            <h1 class="dwt">アクションゲーム</h1>
+            <br>
         <div class="maincont">
             <div class="menu">
                 <h4>ダウンロードランキング</h4>
@@ -32,7 +34,7 @@
                 <br>
                 <a href="/main/rpg" class="genre">RPGゲーム</a><br>
                 <br>
-                <a href="/main/action" class="genre">アクションゲーム</a><br>
+                <a href="/main" class="genre">戻る</a><br>
                 <br>
                 <a href="/main/puzzle" class="genre">パズルゲーム</a>
                 

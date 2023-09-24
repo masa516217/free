@@ -1,0 +1,64 @@
+header {
+    background-color: red;
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    background-color: pink;
+    height: 75px;
+    width: 10%;
+}
+
+.headerparent {
+    display: flex;
+}
+
+.headerelement {
+    margin: 10px;
+    padding: 15px;
+}
+
+.headeranother {
+    margin: 10px;
+    padding: 15px;
+    flex-direction: row-reverse;
+}
+
+.img {
+    width: 900px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.there {
+    text-align: center;
+}
+
+.dwt {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.buttonparent {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    box-shadow: 0px 2px 2px rgba( 0, 0, 0, 0.2);
+    border-bottom: solid 3px #c58668;
+}
+.button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
